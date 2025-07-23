@@ -2,12 +2,17 @@
 .env
 .env.local
 
-# Archivos de sesión
-session/*
+# Carpetas
+/vendor/
+session/
 tmp/
 
 # Logs
 *.log
 
-# Composer
-/vendor/
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Credenciales
+config/database.php.bak
