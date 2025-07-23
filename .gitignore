@@ -1,0 +1,13 @@
+# Archivos sensibles
+.env
+.env.local
+
+# Archivos de sesión
+session/*
+tmp/
+
+# Logs
+*.log
+
+# Composer
+/vendor/
